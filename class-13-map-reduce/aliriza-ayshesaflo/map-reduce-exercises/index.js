@@ -44,34 +44,33 @@ function countLetters(string) {
   return obj;
 }
 
-countLetters("abbcccddddeeeee");
+// countLetters("abbcccddddeeeee");
 
 
   
 // Second part of the second
-  
-function countLetters1(string, target) {
-  let letters = string.split("");
-  
-  return letters.reduce((acc, item) => {
-  // console.log(acc);
-  // console.log(item);
 
-  if (item === target) {
-    acc = true
+function countLetters(word, target) {
+  let letters = word.split("");
+  
+  return letters.reduce((acc, letter) => {
+
+  if (letter === target) {
+    acc = true;
+    return acc;
   }
-  else {
-    acc = false
+  else if (letter !== target) {
+    acc = false;
+    return acc;
   }
 
-  return acc
   }, false)
 
 }
 
-// console.log(countLetters("abcd", "d"))
+console.log(countLetters("abcd", "d"));
 
-
+//                                              //                                        //
 
 
 
