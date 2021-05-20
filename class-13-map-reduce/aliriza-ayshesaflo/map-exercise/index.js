@@ -1,4 +1,4 @@
-// First
+//                                          FIRST                                       //
 
 let randomString = "this is a random string";
 
@@ -16,8 +16,12 @@ function capitalize(str) {
 
 // console.log(capitalize(randomString));
 
+//                                          //                                          //
 
-// Second
+
+
+//                                        SECOND                                        //
+
 
 let randomString1 = "hey gurl, lets javascript together sometime"
 
@@ -41,10 +45,9 @@ const swapCase = function(string) {
 
 };
 
-console.log(swapCase(randomString1));
+// console.log(swapCase(randomString1));                                                                      
 
-
-// Third
+//                                          THIRD                                   //
 
 
 const shiftLetters = function(string) {
@@ -73,6 +76,6 @@ const shiftLetters = function(string) {
   return changedSentence;
 }
 
-// console.log(shiftLetters("abcxyz xYz"))
+// console.log(shiftLetters("abcxyz xYz"))  
 
-
+//                                           //                                     //
